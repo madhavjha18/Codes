@@ -178,3 +178,76 @@ print(csv)  # "name,email,age"
 n = 9
 print(n.bit_length())  # 4
 (-9).bit_length()  # 4
+
+
+# enumerate() - It adds a counter (index) to an iterable and returns it as an enumerate object — which you can use in a loop.
+fruits = ['apple', 'banana', 'cherry']
+for index, value in enumerate(fruits):
+    print(index, value)
+''' 
+output:
+0 apple
+1 banana
+2 cherry
+'''
+for i, fruit in enumerate(fruits, start=1):
+    print(f"{i}. {fruit}") # using f string
+'''
+output:
+1. apple
+2. banana
+3. cherry
+'''
+
+
+#code block for nested function
+def fun1():
+  count=0 #local variable to fun1
+  def fun2():
+    nonlocal count #nonlocal let us access count variable
+    count=count+1
+    print(count)
+
+  fun2() # can be called only inside fun1()
+
+fun1()
+
+
+
+
+#code block for class 
+class human: #parent class
+    def walk(self):
+        print("walking...")
+class Person(human): #this class inherit human class so it is child class
+    #this is how we use constructor
+    def __init__(self, name): # self always need to be the first parameter of the constructor
+        self.name = name
+
+#self will be first part of every method in class
+    def greet(self):       # must include self here too
+        print(f"Hello, I'm {self.name}")
+
+# Create an object (no need to declare type!)
+p1 = Person("Alice")
+
+print(p1.name)  # Alice
+p1.greet()  # Hello, I'm Alice
+p1.walk() # walking...
+
+
+'''
+some libraries:
+    math for math utilities 
+    re for regular expressions 
+    json to work with JSON 
+    datetime to work with dates 
+    sqlite3 to use SQLite 
+    os for Operating System utilities 
+    random for random number generation 
+    statistics for statistics utilities 
+    requests to perform HTTP network requests 
+    http to create HTTP servers 
+    urllib to manage URLS
+'''
+
