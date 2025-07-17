@@ -107,6 +107,7 @@ num4=5.65
 print(round(num3))
 print(round(num4,1)) #rounds to 1 decimal point
 
+
 """
 remove(x) Removes the first occurrence of the element x from the list.
 
@@ -115,7 +116,6 @@ append(x) Adds x to the end of the list.
 pop([i]) Removes and returns the element at index i. If no index is given, removes the last item.
 
 insert(i, x) Inserts x at index i, shifting elements to the right.
-
 
 """
 
@@ -172,3 +172,9 @@ print(text)  # "apple banana cherry"
 
 csv = ",".join(['name', 'email', 'age'])
 print(csv)  # "name,email,age"
+
+
+# .bit_length() method returns the number of bits required to represent an integer in binary, only works on the absolute value (i.e., ignores the sign)
+n = 9
+print(n.bit_length())  # 4
+(-9).bit_length()  # 4
