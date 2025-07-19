@@ -251,3 +251,23 @@ some libraries:
     urllib to manage URLS
 '''
 
+#Lambda function
+add = lambda x, y: x + y
+print(add(2, 3))  # Output: 5
+
+pairs = [(1, 2), (3, 1), (5, 0)] #list of tuples
+pairs.sort(key=lambda x: x[1]) #sorting based on second elemnt of tuples
+print(pairs)  # Output: [(5, 0), (3, 1), (1, 2)]
+
+#map() in lambda
+nums = [1, 2, 3]
+squared = list(map(lambda x: x**2, nums)) # map() – Role: Transform Every Element
+print(squared)  # Output: [1, 4, 9]
+
+#filter() in lambda
+nums = [1, 2, 3, 4]
+result = list(filter(lambda x: x % 2 == 0, nums)) #filter() – Role: Keep Only Matching Elements
+print(result)  # Output: [2, 4]
+
+
+
