@@ -3,5 +3,8 @@
      "files.exclude": {
         "**/.venv": true,
         "**/.vscode": true
+    },
+    "files.associations": {
+        "iostream": "cpp"
     }
 }

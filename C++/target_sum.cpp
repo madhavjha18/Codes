@@ -1,4 +1,4 @@
-#include "my_std.h"
+#include <bits/stdc++.h>
 
 bool target_sum(vector<int>&arr,int index,int target){
     if(target==0) return 1;
