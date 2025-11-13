@@ -1,4 +1,4 @@
-#include "my_std.h"
+#include <bits/stdc++.h>
 
 void permutation(vector<int> &arr, vector<vector<int>>& ans,int index){
     if(index == arr.size()){

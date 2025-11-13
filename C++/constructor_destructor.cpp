@@ -1,4 +1,4 @@
-#include "my_std.h"
+#include <bits/stdc++.h>
 
 class consumer{ //private class by default
     string name; 

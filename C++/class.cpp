@@ -1,4 +1,4 @@
-#include "my_std.h"
+#include <bits/stdc++.h>
 
 class student{
   public: //to assign value in main function we need to set public access specifier

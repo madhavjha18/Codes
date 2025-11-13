@@ -1,4 +1,4 @@
-#include "my_std.h"
+#include <bits/stdc++.h>
 
 void subseq(vector<int>&arr,int sum,int target,vector<vector<int>>&ans,int index,vector<int>&temp){
      if(sum==target){

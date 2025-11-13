@@ -1,5 +1,5 @@
 
-#include "my_std.h"
+#include <bits/stdc++.h>
 
 using namespace std;
 

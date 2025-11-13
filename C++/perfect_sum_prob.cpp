@@ -1,6 +1,6 @@
 // This code is to calculate number of combination of subsequence to get target sum
 
-#include "my_std.h"
+#include <bits/stdc++.h>
 
 int perfectsum(vector<int> &arr, int sum, int index){
     if(index == arr.size()){

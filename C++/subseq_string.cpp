@@ -1,6 +1,5 @@
 
-#include "my_std.h"
-
+#include <bits/stdc++.h>
 
 void subseq(string &s,int index,int n,string &temp,vector<string>& ans){
     if(index==n){
