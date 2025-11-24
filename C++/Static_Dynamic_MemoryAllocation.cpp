@@ -12,7 +12,7 @@ public:
 int main()
 {
     Student *S = new Student;
-    (*S).name = "Arhan";
+    (*S).name = "Madhav";
     (*S).age = 34;
     (*S).roll_number = 43;
     (*S).grade = "A+";

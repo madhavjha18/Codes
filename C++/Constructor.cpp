@@ -12,7 +12,7 @@ public:
     // Default Constructor
     Customer()
     {
-        name = "Arhan";
+        name = "Madhav";
         account_number = 5;
         balance = 100;
         roi = new int[100];
@@ -56,8 +56,8 @@ public:
 int main()
 {
     Customer A1;
-    Customer A2("Farhan", 65, 5000);
-    Customer A3("Arman", 35);
+    Customer A2("Ram", 65, 5000);
+    Customer A3("keshav", 35);
     Customer A4(A3);
     Customer A5;
     A5 = A1;
