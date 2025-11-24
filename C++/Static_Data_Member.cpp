@@ -59,9 +59,9 @@ int Customer::total_balance = 0;
 
 int main()
 {
-    Customer A1("Arhan", 1, 1000);
-    Customer A2("Arman", 2, 1800);
-    Customer A3("Ayan", 3, 2000);
+    Customer A1("Madhav", 1, 1000);
+    Customer A2("Rohan", 2, 1800);
+    Customer A3("John cena", 3, 2000);
     Customer::access_static();
     A1.deposit(800);
     Customer::access_static();

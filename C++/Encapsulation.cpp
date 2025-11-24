@@ -68,9 +68,9 @@ int Customer::total_balance = 0;
 
 int main()
 {
-    Customer A1("Arhan", 1, 1000, 3);
-    Customer A2("Arman", 2, 1800, 4);
-    Customer A3("Ayan", 3, 2000, 8);
+    Customer A1("Madhav", 1, 1000, 25);
+    Customer A2("Krishna", 2, 1800, 30);
+    Customer A3("John cena", 3, 2000, 28);
     A1.updateAge(24);
     A1.deposit(200);
     A1.display();

@@ -14,7 +14,7 @@ void lowertoupper(string &s,int index){
 int main(){
     string s;
     cout<<"Enter a string: ";
-    getline(cin,s);
+    getline(cin,s); //  Updated input method to handle spaces
     lowertoupper(s,s.length()-1);
     cout<<s<<endl;
     
