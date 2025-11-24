@@ -12,7 +12,7 @@ int main() {
     // printing 0-n pallindrome
     
     int n;
-    cout<<"Enter value of N which is the upper limit: ";
+    cout<<" Enter n: ";
     cin>>n;
     
     vector<int>ans;
