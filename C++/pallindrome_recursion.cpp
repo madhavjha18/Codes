@@ -1,6 +1,5 @@
 
 #include <bits/stdc++.h>
-
 using namespace std;
 
 bool pallindrome(string str,int left,int right){
