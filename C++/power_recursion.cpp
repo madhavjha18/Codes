@@ -13,6 +13,9 @@ int pow2(int num,int n){
 
 int main()
 {
-   cout<<pow2(5,3)<<endl;
+    int num,n;
+    cout<<"Enter the number and its power: ";
+    cin>>num>>n;
+    cout<<pow2(num,n)<<endl;
     return 0;
 }
