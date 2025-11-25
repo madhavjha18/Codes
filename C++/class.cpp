@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 
+using namespace std;
 class student{
   public: //to assign value in main function we need to set public access specifier
   string name;
