@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 
+using namespace std;
 class consumer{ //private class by default
     string name; 
     int account_number;
