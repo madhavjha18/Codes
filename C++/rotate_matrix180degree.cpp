@@ -10,6 +10,7 @@ int main(){
     int n = nums.size();
     int k = n-1;
 
+    // step 1: reversing the rows
      for(int i = 0;i<k;i++){
        
        for(int j = 0;j<n;j++){
@@ -18,6 +19,7 @@ int main(){
        k--;
    }
    
+   // step 2: reversing the columns
    for(int i = 0;i<n;i++){
        int l = 0,r = n-1;
        while(l<=r){
