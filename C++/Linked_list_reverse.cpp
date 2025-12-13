@@ -26,7 +26,7 @@ void print(Node* &head){
 }
 
 void reversell(Node* &head){
-    if(!head) return;
+    if(!head || !head->next) return;
 
     Node* curr = head->next;
     head->next = nullptr;
@@ -39,6 +39,7 @@ void reversell(Node* &head){
         
     }
     curr->next = prev;
+    head = curr;
 
 }
 int main(){
