@@ -1,5 +1,6 @@
 
 #include <bits/stdc++.h>
+using namespace std;
 
 void subseq(vector<int>&arr,int index,int sum)
 {

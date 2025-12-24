@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+using namespace std;
 
 void subseq(int arr[], vector<int> &temp, vector<vector<int>> &ans, int index,
             int n) {
