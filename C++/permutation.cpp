@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+using namespace std;
 
 void permutation(vector<int> &arr,vector<vector<int>> &ans, vector<int> &temp, vector<bool> &visited){
     if(temp.size() == arr.size()){

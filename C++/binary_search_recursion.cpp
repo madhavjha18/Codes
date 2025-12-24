@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+using namespace std;
 
 bool binarysearch(vector<int> arr, int left, int right, int key) {
   int mid = left + right - left / 2;
