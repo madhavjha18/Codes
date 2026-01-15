@@ -19,7 +19,11 @@ class Stack{
         top = nullptr;
         size = 0;
     }
-
+    ~Stack(){
+        while(!IsEmpty()){
+            pop();
+        }
+    }
     // push
     void push(int value){
         Node *temp = new Node (value);
