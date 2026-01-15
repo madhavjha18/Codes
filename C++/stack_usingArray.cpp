@@ -15,6 +15,9 @@ class Stack{
         arr = new int[s];
         flag = 1;
     }
+    ~Stack(){
+        delete []arr;
+    }
     // Push
     void push(int value){
         if (top==size-1){
