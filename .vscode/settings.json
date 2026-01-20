@@ -1,10 +1,11 @@
 {
     "python.REPL.enableREPLSmartSend": false,
-     "files.exclude": {
+    "files.exclude": {
         "**/.venv": true,
         "**/.vscode": true
     },
     "files.associations": {
         "iostream": "cpp"
-    }
+    },
+
 }
