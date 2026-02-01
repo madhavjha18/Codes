@@ -1,0 +1,31 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    width: 800px;
+    height: 800px;
+    border: 2px solid black;
+
+}
+
+.B{
+    background-color: black;
+}
+.W{
+    background-color: wheat;
+}
+
+
