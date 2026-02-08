@@ -1,0 +1,13 @@
+.main-container{
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    height: 800px;
+    max-width: 1200px;
+    gap: 40px;
+}
+body{
+    background-color: #1e1e1e;
+    color: #a0a0a0;
+    line-height: 1.6;
+    font-family: sans-serif;
+}
