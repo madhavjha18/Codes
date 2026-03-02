@@ -7,10 +7,28 @@
 
 // let marks = [100,50,70,80,90];
 
-
-
 // console.log(marks);
 // console.log(marks.length);
+
+// // array size manupulation
+// let arr = [];
+
+// console.log(arr.length);//0
+
+// arr[0] = 12;
+
+// console.log(arr.length);//1
+
+// arr[1000] = 234;
+
+// console.log(arr.length); //1001
+
+// arr.pop();
+
+// console.log(arr.length); //1000
+
+
+
 
 // let arr = [100,30,"Rohit",true];
 
@@ -134,7 +152,6 @@
 // const a = arr.flat(Infinity);
 // console.log(a);
 // console.log(arr[3][2][1]);
-
 
 const a = [10,309,"Rohit",9.3, true];
 a.name = "Moahn";

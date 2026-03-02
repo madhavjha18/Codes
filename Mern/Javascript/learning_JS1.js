@@ -98,7 +98,7 @@ console.log(null<0 || null>0);
 console.log(undefined == 0);
 console.log(undefined >= 0);
 
-console.log("2" == 2); // "2" is converted to int then compared
+console.log("2" == 2); // 2 is converted to string then the string is matched
 console.log("2" === 2); // === is used for strict checking in which both value and datatype is compared
 
 const Id = Symbol('123')
@@ -137,4 +137,3 @@ let userTwo = userOne
 userTwo.email = "hitesh@google.com"
 console.log(userOne.email);  //changed because userTwo had userOne reference not the value copy
 console.log(userTwo.email);
-
