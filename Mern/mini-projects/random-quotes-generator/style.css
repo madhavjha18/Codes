@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#quote{
+    min-height:150px;
+    text-align:center;
+}
+
+#first{
+    text-align:center;
+    padding:30px;
+    border-radius:10px;
+    background-color:#1e1e1e;
+    width:100vw;
+}
+
+button{
+    padding:12px 28px;
+    font-size:16px;
+    background-color:#ffffff;
+    color:#000000;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    transition:all 0.2s ease;
+}
+
+button:hover{
+    background-color:#e5e5e5;
+}
+
