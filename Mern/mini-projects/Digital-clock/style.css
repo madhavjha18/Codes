@@ -1,0 +1,28 @@
+body{
+    background-color: #0f0f0f; /* softer black */
+    color: white;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+
+#time{
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    padding: 20px 40px;
+    border-radius: 12px;
+
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+
+    text-align: center;
+}
