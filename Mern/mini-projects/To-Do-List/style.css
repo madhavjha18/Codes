@@ -1,0 +1,105 @@
+body{
+    background: #121212;
+    color: white;
+    margin: 0;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+
+/* Heading */
+h1{
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+/* Input + Button container feel */
+#task{
+    padding: 12px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+
+    width: 250px;
+    margin-right: 10px;
+
+    background: #1e1e1e;
+    color: white;
+}
+
+/* Add button */
+#addtask{
+    padding: 12px 18px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+
+    background: #00adb5;
+    color: white;
+    cursor: pointer;
+
+    transition: 0.2s ease;
+}
+
+#addtask:hover{
+    background: #019ca3;
+}
+
+/* Task list container */
+#parent{
+    margin-top: 30px;
+    width: 350px;
+}
+
+/* Each task */
+#parent div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #1e1e1e;
+    padding: 12px 15px;
+    border-radius: 8px;
+
+    margin-bottom: 12px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+/* Task text */
+#parent span{
+    flex: 1;
+    font-size: 16px;
+}
+
+/* Buttons inside task */
+#parent button{
+    margin-left: 8px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Complete button */
+#parent button:nth-child(2){
+    background: #ff4d4d;
+    color: white;
+}
+
+/* Delete button */
+#parent button:nth-child(3){
+    background: #4caf50;
+    color: white;
+}
+
+/* Hover effects */
+#parent button:hover{
+    opacity: 0.8;
+}
