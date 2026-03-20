@@ -195,7 +195,7 @@ function deliverOrder(orderDetail){
     
 }
 
-
+//finally will always be executed even if there is no error
 placedOrder(orderDetail)
 .then((orderDetail)=>preparingOrder(orderDetail))
 .then((orderDetail)=>pickupOrder(orderDetail))
