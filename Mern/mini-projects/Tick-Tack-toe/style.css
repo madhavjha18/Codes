@@ -1,0 +1,86 @@
+/* Base */
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #f5deb3, #ffe4b5);
+    font-family: Arial, sans-serif;
+}
+
+/* Center whole game */
+#game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Grid card */
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+    padding: 20px;
+    border-radius: 20px;
+    background: white;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+
+    width: 400px;
+    height: 400px;
+}
+
+/* Blocks */
+.block {
+    background: #f0f8ff;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 60px;
+    font-weight: bold;
+    cursor: pointer;
+
+
+    transition: background 0.2s ease, box-shadow 0.2s ease;
+    aspect-ratio: 1 / 1;
+}
+
+
+.block:hover {
+    background: #e0f0ff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Reset button */
+#reset {
+    margin-top: 25px;
+    padding: 10px 20px;
+
+    border: none;
+    border-radius: 25px;
+
+    background: linear-gradient(135deg, cyan, #00bcd4);
+    color: black;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#reset:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Winner text */
+#declare-winner {
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: green;
+    min-height: 40px;
+}
