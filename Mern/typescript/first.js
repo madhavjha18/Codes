@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-let num = 13;
-let num2 = 34;
+let num = 24;
+let num2 = 35;
 console.log(num + num2);
+console.log("hello");

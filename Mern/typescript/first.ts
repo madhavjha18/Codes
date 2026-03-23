@@ -1,4 +1,8 @@
-let num= 13;
-let num2= 34;
+let num: number = 24;
 
-console.log(num+num2);
+let num2: number = 35;
+
+console.log(num + num2);
+
+
+console.log("hello");
