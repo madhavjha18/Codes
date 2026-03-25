@@ -20,6 +20,8 @@ tsc -w
 👉 Automatically recompiles on file changes
 🔥 Very useful in development
 
+To exit control+c (on mac)
+
 
 📁 5. Compile using specific config
 tsc -p ./path/to/tsconfig.json
