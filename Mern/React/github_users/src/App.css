@@ -1,0 +1,40 @@
+*{
+    background-color: black;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+.img{
+    height: 250px;
+    width: 250px;
+
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 250%;
+}
+
+#header2{
+    height: 50px;
+    margin-top: 10px;
+    background-color: wheat;
+    font-size: 150%;
+    margin-left: 15px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.row h1{
+    padding-bottom: 20px;
+}
