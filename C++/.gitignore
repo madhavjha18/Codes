@@ -1,5 +1,4 @@
-.vscode/*
-!.vscode/extensions.json
-*.out
-*.exe
-.DS_Store
+!*.cpp
+!*.h
+!*.md
+!*.txt
