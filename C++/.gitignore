@@ -1,4 +1,15 @@
+# Ignore binaries
+*.out
+*.exe
+*.o
+*.obj
+
+# Ignore files without extension (important for your case)
+*
 !*.cpp
 !*.h
 !*.md
 !*.txt
+
+# Keep folders
+!*/
