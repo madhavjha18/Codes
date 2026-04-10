@@ -1,0 +1,3 @@
+[submodule "CSES"]
+	path = CSES
+	url = https://github.com/madhavjha18/CSES
