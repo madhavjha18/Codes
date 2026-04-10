@@ -1,5 +1,4 @@
-import { useEffect } from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function App(){
     const [time,setTime] = useState(new Date().toLocaleTimeString());
@@ -12,9 +11,7 @@ function App(){
         
         return ()=> clearInterval(interval); //isline is fark nai parta just optimisation
     },[]);
-    const styling = {
-        
-    }
+    
     return <>
     <h1 style={{backgroundColor: "black"
         , color: "white"
