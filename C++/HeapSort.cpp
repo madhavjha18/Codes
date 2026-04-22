@@ -30,9 +30,9 @@ void heapify(vector<int>&arr,int n,int index){
     int left = 2*index + 1;
     int right = 2*index + 2;
 
-    if(left < n && arr[left] > arr[index])
+    if(left < n && arr[left] > arr[largest])
     largest = left;
-    if(right < n && arr[right] > arr[index])
+    if(right < n && arr[right] > arr[largest])
     largest = right;
 
     if(largest != index){
