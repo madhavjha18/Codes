@@ -1,2 +1,23 @@
-.vscode/*
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Node.js and Vite
+node_modules/
+dist/
+
+# Build binaries
+*.out
+*.exe
+*.o
+*.obj
+
+# macOS
 .DS_Store
