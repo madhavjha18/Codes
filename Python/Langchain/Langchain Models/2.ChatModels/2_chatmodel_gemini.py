@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-model = ChatGoogleGenerativeAI(model = "gemini-3.7-flash")
+model = ChatGoogleGenerativeAI(model = "gemini-3.8-flash")
 
 message = []
 
@@ -21,5 +21,3 @@ while True:
     message.append(response.text)
 
     print("AI: ",response.text)
-
-
