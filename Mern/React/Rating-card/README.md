@@ -1,16 +1,80 @@
-# React + Vite
+# Frontend Mentor Challenges
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A collection of frontend projects built while practicing and improving my frontend development skills through [Frontend Mentor](https://www.frontendmentor.io/).
 
-Currently, two official plugins are available:
+I'm using these challenges to improve my React, Tailwind CSS, responsive design, and component development skills.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Projects
 
-## React Compiler
+### 1. Interactive Rating Card
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+An interactive rating component where users can select a rating from 1 to 5 and submit their feedback.
 
-## Expanding the ESLint configuration
+**Features**
+- Interactive rating selection
+- Selected rating state
+- Submit button
+- Thank-you screen displaying the selected rating
+- Responsive layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Tech Stack**
+- React
+- JavaScript
+- Tailwind CSS
+- Vite
+- pnpm
+
+
+**Live Demo:** [View Live Site](https://frontend-mentor-challenges-beta-eight.vercel.app/)
+
+**Solution:** [View Source Code](https://github.com/madhavjha18/frontend-mentor-challenges/tree/main/Rating-card)
+
+## Getting Started
+
+To run the project locally:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/madhavjha18/frontend-mentor-challenges.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd frontend-mentor-challenges/Rating-card
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   pnpm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   pnpm dev
+   ```
+
+5. Open the local URL provided by Vite in your browser.
+
+## What I Learned
+
+- Managing component state using React's `useState` hook
+- Conditional rendering in React
+- Passing props between components
+- Handling user interactions with event handlers
+- Styling components using Tailwind CSS
+- Organizing a React project
+- Using Git and GitHub to manage and share projects
+
+## About Me
+
+I'm a Computer Science student learning frontend development and building projects to strengthen my practical skills.
+
+I'm continuously learning, experimenting, and improving through hands-on projects.
+
+---
+
+Built with React and Tailwind CSS 🚀
